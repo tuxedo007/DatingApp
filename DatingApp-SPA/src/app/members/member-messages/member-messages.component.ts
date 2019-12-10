@@ -10,6 +10,7 @@ import { tap } from 'rxjs/operators';
   templateUrl: './member-messages.component.html',
   styleUrls: ['./member-messages.component.css']
 })
+
 export class MemberMessagesComponent implements OnInit {
   @Input() recipientId: number;
   messages: Message[];
